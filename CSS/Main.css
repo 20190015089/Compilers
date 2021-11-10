@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} img {
+	width: 50%;
+	height: auto;
+} .content img {
+	width: 35%;
+	height: auto;
+} .card {
+  background: linear-gradient(to right, #be93c5, #7bc6cc);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin: 30px;	
+  transition: transform 0.2s ease-in;
+} .card:hover {
+  transform: translateY(-15px);
+} .images-nav {
+	max-width: 10%;
+	height: 11vh;
+	display: flex;
+	justify-content: center;
+} .images-nav img {
+	margin: 0 15%;
+} .main-images-nav {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} .main-images-nav img {
+	width: 10vh;
+}
