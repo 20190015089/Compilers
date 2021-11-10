@@ -20,12 +20,9 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 } .card:hover {
   transform: translateY(-15px);
 } .images-nav {
-	max-width: 10%;
-	height: 11vh;
+	width: 15%;
 	display: flex;
-	justify-content: center;
-} .images-nav img {
-	margin: 0 15%;
+	height: auto;
 } .main-images-nav {
 	max-width: 100%;
 	display: flex;
