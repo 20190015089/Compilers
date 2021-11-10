@@ -23,6 +23,7 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 	width: 15%;
 	display: flex;
 	height: auto;
+	justify-content: center;
 } .main-images-nav {
 	max-width: 100%;
 	display: flex;
