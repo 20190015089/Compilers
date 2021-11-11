@@ -34,8 +34,18 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 } .main-images-nav img {
 	width: 8vh;
 } .card {
-	margin-top: 25%;
+	margin-top: -20%;
 	margin-bottom: 50%;
+} .main-images-nav {
+	marign-bottom: 10%;
+} .margin {
+	margin: 0 10%;
+	margin-top: 50%;
+	margin-bottom: 40%;	
+} .scrollimage {
+	width: 10%;
+	height: auto;
+	margin: -10% 0;
 }
 
 /* MediaQueries - Devices Responsivity */
@@ -48,5 +58,14 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 		height: auto;
 	} .header img {
 		width: 100%;
+	} .card {
+		margin-left: 5%;
+	} .scrollimage img {
+		visibility: hidden;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.card {
+		display: grid;
 	}
 }
