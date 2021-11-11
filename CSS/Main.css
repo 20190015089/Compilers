@@ -57,7 +57,7 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 		width: 100%;
 		height: auto;
 	} .header img {
-		width: 100%;
+		width: 75%;
 	} .card {
 		margin-left: 5%;
 		width: 8vw;
