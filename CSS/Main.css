@@ -14,8 +14,8 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 3%;
-  margin: 8%;	
+  padding: 15px;
+  margin: 30px;	
   transition: transform 0.2s ease-in;
 } .card:hover {
   transform: translateY(-15px);
@@ -57,7 +57,7 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 		width: 100%;
 		height: auto;
 	} .header img {
-		width: 75%;
+		width: 100%;
 	} .card {
 		margin-left: 5%;
 		width: 8vw;
