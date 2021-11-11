@@ -32,7 +32,7 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 	justify-content: center;
 	align-items: center;
 } .main-images-nav img {
-	width: 6vw;
+	width: 4vw;
 } .card {
 	margin-top: -20%;
 	margin-bottom: 50%;
