@@ -32,3 +32,16 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 } .main-images-nav img {
 	width: 10vh;
 }
+
+/* MediaQueries - Devices Responsivity */
+@media only screen and (max-width: 768px) {
+	.main-images-nav {
+		display: grid;
+		margin: -10vh 0;
+	} .main-images-nav img {
+		width: 5vh;
+		height: auto;
+	} .header img {
+		width: 35vh;
+	}
+}
