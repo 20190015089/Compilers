@@ -24,13 +24,18 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 	display: flex;
 	height: auto;
 	justify-content: center;
+	align-items: center;
+	padding: 5% 0;
 } .main-images-nav {
-	max-width: 100%;
+	max-width: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 } .main-images-nav img {
-	width: 10vh;
+	width: 8vh;
+} .card {
+	margin-top: 25%;
+	margin-bottom: 50%;
 }
 
 /* MediaQueries - Devices Responsivity */
